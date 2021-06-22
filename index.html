@@ -4,7 +4,10 @@
     <!-- PAGE INFO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EROS AUGUSTUS COMPOSER</title>
+    <title>EROS AUGUSTUS</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
@@ -19,8 +22,20 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">EROS <span>AUGUSTUS</span> COMPOSER</a>
-        <div class="menu">...</div>
+        <a class="logo" href="#">EROS<span>AUGUSTUS</span></a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -29,25 +44,99 @@
         <div class="container grid">
           <div class="image">
             <img
-              src="https://images.unsplash.com/photo-1514119412350-e174d90d280e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-              alt="Mulher sorrindo penteando outra mulher"
+              src="https://images.unsplash.com/photo-1453906971074-ce568cccbc63?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+              alt="PARTITURA"
             />
           </div>
           <div class="text">
-            <h1>Onze anos no mercado musical e cinematográfico</h1>
+            <h2 class="title">Onze anos no mercado musical e cinematográfico</h2>
             <p>
-              Localizado em Fortaleza - Ceará
+              Fortaleza - CE
             </p>
-            <a class="button" href="#">Agendar um orçamento</a>
+            <a class="button" href="#">Agendar um horário</a>
           </div>
         </div>
       </section>
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">outra section</div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1589666629225-750e2f7875f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt="3 mulheres sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
+              beatae dicta ducimus praesentium architecto harum dolorum
+              distinctio illo earum assumenda itaque. Omnis, quam repellat.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              illum ratione impedit quae eum quis adipisci asperiores, est
+              doloribus distinctio excepturi minima eius dolore! Perferendis
+              laborum illo aspernatur repellendus ipsum.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+              exercitationem, illum sapiente quasi hic iusto odio maiores esse
+              quaerat quis necessitatibus at odit, dolores dicta, officia ab
+              quos. Provident, quae.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 11 anos no mercado, o <strong>Compositor</strong> e <strong>Arranjador</strong> EROS AUGUSTUS já trabalhou com aristas do ramo do Pop, Rock, Regional, assim como profissionais do cinema, realizando e produzindo novas experiências sonoras.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-music"></i>
+              <h3 class="title">Composição</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-headphones"></i>
+              <h3 class="title">Arranjos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-speaker"></i>
+              <h3 class="title">Mix e Master</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
